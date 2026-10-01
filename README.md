@@ -92,6 +92,8 @@ lead_scoring/
 
 ## Run the Notebooks and Scoring Script
 
+The data files are not included in this repository. Download the X Education Lead Scoring dataset from Kaggle and place Lead Scoring.csv in the data/ folder. Place Leads Data Dictionary.xlsx there too if you want to reference the column descriptions.
+
 From the project root, create an environment and install the notebook dependencies:
 
 ```bash
