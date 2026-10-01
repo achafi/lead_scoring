@@ -1,0 +1,72 @@
+{
+  "selected_model": "XGBoost",
+  "target": "Converted",
+  "features": [
+    "Lead Origin",
+    "Lead Source",
+    "Do Not Email",
+    "Do Not Call",
+    "TotalVisits",
+    "Total Time Spent on Website",
+    "Page Views Per Visit",
+    "Last Activity",
+    "Country",
+    "Specialization",
+    "How did you hear about X Education",
+    "What is your current occupation",
+    "What matters most to you in choosing a course",
+    "Search",
+    "Newspaper Article",
+    "X Education Forums",
+    "Newspaper",
+    "Digital Advertisement",
+    "Through Recommendations",
+    "City",
+    "Asymmetrique Activity Index",
+    "Asymmetrique Profile Index",
+    "Asymmetrique Activity Score",
+    "Asymmetrique Profile Score",
+    "A free copy of Mastering The Interview"
+  ],
+  "excluded_columns": [
+    "Prospect ID",
+    "Lead Number",
+    "Converted",
+    "Tags",
+    "Lead Quality",
+    "Lead Profile",
+    "Last Notable Activity",
+    "Magazine",
+    "Receive More Updates About Our Courses",
+    "Update me on Supply Chain Content",
+    "Get updates on DM Content",
+    "I agree to pay the amount through cheque"
+  ],
+  "test_metrics": {
+    "accuracy": 0.83495670995671,
+    "precision": 0.759235668789809,
+    "recall": 0.8370786516853933,
+    "f1": 0.7962591850367402,
+    "roc_auc": 0.9141051540987498,
+    "pr_auc": 0.8713338444881789
+  },
+  "cv_mean_std": {
+    "roc_auc": {
+      "mean": 0.9283213744525003,
+      "std": 0.005130763362589461
+    },
+    "pr_auc": {
+      "mean": 0.8973780163907119,
+      "std": 0.011851064839153503
+    }
+  },
+  "random_state": 42,
+  "scikit_learn_version": "1.9.1",
+  "xgboost_version": "3.4.1",
+  "lightgbm_version": "4.7.0",
+  "segmentation": {
+    "method": "one-third and two-thirds quantiles of the fixed test-score distribution",
+    "low_max_score": 0.1259000152349472,
+    "medium_max_score": 0.7230145335197449
+  }
+}
